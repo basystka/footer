@@ -1,0 +1,124 @@
+
+footer {
+  margin-top:550px;
+  margin-bottom: 0px;
+}
+footer .footer-top-wrapper{
+  background-color: lightgray;
+  width: 100%;
+  padding: 20px;
+  display: block;
+}
+footer .footer-bottom-wrapper {
+  padding: 20px;
+  background-color: #2C333B;
+  border-top: 1px solid #4f5458;
+}
+p{
+  margin: 0px;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: underline;
+  color: black;
+  cursor: pointer;
+}
+a:hover{
+  color: black;
+}
+span{
+  font-weight: bold;
+}
+
+/*---------FOOTER TOP CONTAINER---------*/
+
+.col-md-8 .top-left{
+  float: left;
+  padding-right: 150px;
+}
+.col-md-8 .top-left ul{
+  margin-top: 20px;
+}
+.col-md-8 .top-left li{
+  margin-top: 0px 50px 15px 0px;
+}
+.col-md-4 .top-right{
+  float: left;
+  padding-right: 50px;
+}
+.col-md-8 .top-left li,
+.col-md-4 .top-right li{
+  margin: 0 50px 5px 0;
+}
+.col-md-8 .top-left ul,
+.col-md-4 .top-right ul{
+  padding-left: 0px;
+}
+.copyright{
+  clear: both;
+  padding-top: 20px;
+  color: black;
+}
+
+/*----------FOOTER BOTTOM CONTAINER-----------*/
+
+.images{
+  float: left;
+  padding: 10px 50px 10px 0px;
+}
+.images p{
+  width: 100px;
+  color: white;
+  text-align: center;
+}
+.bottom-right h4{
+  color: white;
+}
+.bottom-right{
+margin: 0px;
+}
+.bottom-right ul{
+  padding-left: 0px;
+  padding-top: 10px;
+}
+.bottom-right li{
+  margin-right: 0px;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 82px;
+  height: 38px;
+}
+.proskit{
+  background-image: url(../footer-assets/proskit.png);
+}
+.jovy{
+  background-image: url(../footer-assets/jovy.png);
+}
+.rigol{
+  background-image: url(../footer-assets/rigol.png);
+}
+.lukey{
+  background-image: url(../footer-assets/unit.png);
+}
+.goot{
+  background-image: url(../footer-assets/goot.png);
+}
+.unit{
+  background-image: url(../footer-assets/unit.png);
+}
+.proskit, .jovy, .rigol, .lukey, .goot, .unit{
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+}
+.proskit:hover,
+.jovy:hover,
+.rigol:hover,
+.lukey:hover,
+.goot:hover,
+.unit:hover{
+  background-position: 0px -38px;
+  cursor: pointer;
+}
